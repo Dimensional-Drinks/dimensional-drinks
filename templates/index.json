@@ -164,17 +164,17 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Quality",
+            "text": "<p>We pride ourselves on providing you quality products that meet your needs. If you ever have an issue, please reach out to us!<\/p>",
+            "link_label": "Contact Us",
+            "link": "shopify:\/\/pages\/contact"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Ease of Use",
+            "text": "<p>We make 3D cups too, so our designs reflect that experience and knowledge. Edges are softened to prevent epoxy from pulling away<\/p>",
             "link_label": "",
             "link": ""
           }
