@@ -15,12 +15,33 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
+    {% liquid
+      assign isDaPage = false
+      if collection.template_suffix contains 'dimensionalartists'
+        assign isDaPage = true
+      elsif page.template_suffix contains 'dimensionalartists'
+        assign isDaPage = true
+      endif
+    %}
+
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
+
+    {%
+    ###############################
+    # Dimensional Artists Change
+            # For some reason the DropInBlog app sets the header of the entire site to Blog...
+            ###############################
+    %}
+    {%- if isDaPage == true -%}
+      {%- if dropinblog == 1 -%}
+        {{ dropinblog_head_top }}
+      {%- endif -%}
+    {%- endif -%}
 
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
@@ -235,6 +256,17 @@
           font-size: 1.6rem;
         }
       }
+      {%
+      ###############################
+      # Dimensional Artists Change
+              # Hide the free shipping banner from the top of the site
+              ###############################
+      %}
+      {% if isDaPage == true %}
+        .essential_free_shipping_bar_wrapper {
+        display: none !important;
+        }
+      {% endif %}
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -266,6 +298,22 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {%- if dropinblog == 1 -%}{{ dropinblog_head_bottom }}{%- endif -%}
+    {% if template == 'cart' %}{% include "revy-bundle-script" %}{% endif %}
+
+
+
+    {% if content_for_header contains 'fastbundle.co' %}
+      {% render 'fast_bundle_service' %}
+    {% endif %}
+
+
+    <script>(() => {const installerKey = 'docapp-discount-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
+
+    <script>(() => {const previewKey = 'docapp-discount-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-discount-inst-test')}));}})();</script>
+
+    {% render 'shogun-head' %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

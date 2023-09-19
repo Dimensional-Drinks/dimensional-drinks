@@ -142,6 +142,27 @@
     endif
   endfor
 -%}
+{%
+        ###############################
+        # Dimensional Artists Change
+        ###############################
+%}
+
+{% liquid
+  assign isDaPage = false
+  if collection.template_suffix contains 'dimensionalartists'
+    assign isDaPage = true
+  elsif page.template_suffix contains 'dimensionalartists'
+    assign isDaPage = true
+  endif
+%}
+
+{%
+        ###############################
+        # Dimensional Artists Change
+        ###############################
+%}
+
 
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   {%- liquid
@@ -159,7 +180,11 @@
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
       if section.settings.menu != blank
-        render 'header-drawer'
+        if isDaPage
+          render 'da-header-drawer'
+        else
+          render 'header-drawer'
+        endif
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
@@ -200,7 +225,11 @@
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
+          if isDaPage
+            render 'da-header-dropdown-menu'
+          else
+            render 'header-dropdown-menu'
+          endif
         elsif section.settings.menu_type_desktop != 'drawer'
           render 'header-mega-menu'
         endif
