@@ -174,7 +174,7 @@
           "type": "column",
           "settings": {
             "title": "Ease of Use",
-            "text": "<p>We make 3D cups too, so our designs reflect that experience and knowledge. Edges are softened to prevent epoxy from pulling away<\/p>",
+            "text": "<p>We make 3D cups too, so our designs reflect that experience and knowledge. Softening edges to make epoxying easier and ensuring versatility are a few examples.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -182,8 +182,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Time saving",
+            "text": "<p>Time is easily the most valuable component of your product.<\/p>",
             "link_label": "",
             "link": ""
           }
