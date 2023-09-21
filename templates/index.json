@@ -165,7 +165,7 @@
           "type": "column",
           "settings": {
             "title": "Quality",
-            "text": "<p>We pride ourselves on providing you quality products that meet your needs. If you ever have an issue, please reach out to us!<\/p>",
+            "text": "<p>We pride ourselves on providing you quality products that meet your needs. If you ever have a question, please reach out to us!<\/p>",
             "link_label": "Contact Us",
             "link": "shopify:\/\/pages\/contact"
           }
