@@ -53,14 +53,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Making 3D Accessible",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our mission is to make 3D more accessible for everyone, from beginners to artisans. Browse our sleeves, get inspired and make something Dimensional.<\/p>"
           }
         }
       },
