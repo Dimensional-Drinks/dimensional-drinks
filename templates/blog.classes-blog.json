@@ -1,19 +1,67 @@
 {
   "sections": {
+    "5ba932f4-cd8e-4964-85bb-0145f359ae9c": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4B2D1893-A1C2-4517-A113-1AFD9295B36C.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c6b901e8-fa93-4e68-9de1-943a937d8b6f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20991795593501__c6b901e8-fa93-4e68-9de1-943a937d8b6f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Register for a 3D Tumbler Class",
+            "heading_size": "h1"
+          }
+        },
+        "template--20991795593501__c6b901e8-fa93-4e68-9de1-943a937d8b6f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Immerse yourself in the art of 3D tumbler making and create one start to finish at one or more classes across the U.S. Dimensional Drinks classes are sure to be a unique and fun experience.<\/p><p>Find a class near you! <\/p><p>To host a class with our products please email us at support@dimensionaldrinks.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20991795593501__c6b901e8-fa93-4e68-9de1-943a937d8b6f-heading-1",
+        "template--20991795593501__c6b901e8-fa93-4e68-9de1-943a937d8b6f-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
         "layout": "collage",
         "show_image": true,
         "image_height": "medium",
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
   "order": [
+    "5ba932f4-cd8e-4964-85bb-0145f359ae9c",
+    "c6b901e8-fa93-4e68-9de1-943a937d8b6f",
     "main"
   ]
 }
