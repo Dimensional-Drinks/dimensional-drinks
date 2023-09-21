@@ -164,8 +164,8 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-1": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
+            "caption": "Step 1",
+            "heading": "Attach",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -174,8 +174,8 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-2": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
+            "caption": "Step 2",
+            "heading": "Decorate",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -184,8 +184,8 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-3": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
+            "caption": "Step 3",
+            "heading": "Seal",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
             "button_link": ""
