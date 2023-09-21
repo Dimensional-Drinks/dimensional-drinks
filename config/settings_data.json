@@ -147,6 +147,63 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "5918445685253060206": {
+        "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11468047240823483236": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/checkout-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": false,
+        "settings": {
+          "heading": "Sezzle Checkout Button",
+          "template": "Checkout with %%logo%%",
+          "mode": "light"
+        }
+      },
+      "12608439564960700138": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": false,
+        "settings": {
+          "heading": "Sezzle Widget",
+          "font_size": 14,
+          "font_family": "inherit"
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12120936241911852800": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+          "position": "right"
+        }
+      },
+      "341186785192672687": {
+        "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15079184273603081885": {
+        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
