@@ -114,6 +114,8 @@
     "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/dd-logo-v2.png",
     "checkout_logo_size": "small",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#000000",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
