@@ -136,7 +136,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.pdp.product_highlight_description | metafield_tag }}<\/p>",
+            "text": "",
             "text_style": "body"
           }
         }
