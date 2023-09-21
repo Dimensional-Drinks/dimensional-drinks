@@ -158,6 +158,36 @@
         "padding_bottom": 36
       }
     },
+    "ef3eee4a-9902-4cb3-8044-8dee47aea527": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting Started",
+            "heading_size": "h1"
+          }
+        },
+        "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Getting started with our sleeves is super easy! Simply adhere the sleeve to your tumbler, decorate it and seal!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-heading-1",
+        "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "8cc72a92-cee1-4e0a-88ab-dd4ce1418a83": {
       "type": "multirow",
       "blocks": {
@@ -167,7 +197,7 @@
             "caption": "Step 1",
             "heading": "Attach",
             "text": "<p>Permanently adhere your sleeve to your bare tumbler by applying the adhesive to the inside of the sleeve and slide it onto your blank tumbler.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -177,7 +207,7 @@
             "caption": "Step 2",
             "heading": "Decorate",
             "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -187,7 +217,7 @@
             "caption": "Step 3",
             "heading": "Seal",
             "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished for your final product.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -258,6 +288,7 @@
     "rich_text",
     "multicolumn",
     "featured_collection",
+    "ef3eee4a-9902-4cb3-8044-8dee47aea527",
     "8cc72a92-cee1-4e0a-88ab-dd4ce1418a83",
     "collage"
   ]
