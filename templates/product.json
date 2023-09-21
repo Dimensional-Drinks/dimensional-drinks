@@ -175,10 +175,10 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Got questions? We've got answers!",
+            "text": "<p>Feel free to reach out to us and we'll work to resolve any issues with your order as soon as possible! Feel free to join our Facebook Group as well and share any questions you may have, or that gorgeous new cup you made!<\/p>",
+            "link_label": "Contact Us",
+            "link": "shopify:\/\/pages\/contact"
           }
         }
       },
