@@ -111,20 +111,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "3d-tumbler-sleeves"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "spooky-pumpkin",
+            "second_image": true
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "3d-tumbler-sleeves-accessories"
           }
         }
       },
@@ -134,7 +134,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Popular",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
