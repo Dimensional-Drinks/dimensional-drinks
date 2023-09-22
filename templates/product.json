@@ -53,18 +53,18 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Tumblers that fit",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Tumblers that fit",
-            "icon": "ruler",
-            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
+            "heading": "Weight",
+            "icon": "box",
+            "content": "<p>{{ product.metafields.custom.sleeve_weight | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -73,7 +73,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.sleeve_weight | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
             "page": ""
           }
         },
@@ -82,7 +82,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<ul><li>Avoid excessive heat<\/li><li>Avoid dropping to prevent damage<\/li><li>Light cleaning with Alcohol may be necessary due to these being handled before shipment<\/li><\/ul>",
             "page": ""
           }
         },
