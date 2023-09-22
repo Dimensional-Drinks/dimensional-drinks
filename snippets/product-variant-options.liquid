@@ -57,10 +57,10 @@
         checked
       {% endif %}
       {% if option_disabled %}
-        class="disabled color-{{ color_scheme }}"
+        class="disabled"
       {% endif %}
     >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="color-{{ color_scheme }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
