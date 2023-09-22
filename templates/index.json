@@ -244,7 +244,7 @@
           "settings": {
             "caption": "Step 3",
             "heading": "Seal",
-            "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished and you're done!<\/p>",
+            "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished for your final product.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -299,6 +299,7 @@
         "product",
         "collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Popular",
         "heading_size": "h2",
