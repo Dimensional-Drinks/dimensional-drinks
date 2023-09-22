@@ -214,21 +214,11 @@
             "link_label": "Contact Us",
             "link": "shopify:\/\/pages\/contact"
           }
-        },
-        "f067a4e3-9557-4831-a26a-df371b7f0e69": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column-0",
-        "column-1",
-        "f067a4e3-9557-4831-a26a-df371b7f0e69"
+        "column-1"
       ],
       "settings": {
         "title": "",
