@@ -328,6 +328,12 @@
         "content": "t:settings_schema.global.settings.header__border.content"
       },
       {
+        "type": "color_scheme",
+        "id": "variant_pills_color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-2"
+      },
+      {
         "type": "range",
         "id": "variant_pills_border_thickness",
         "min": 0,
