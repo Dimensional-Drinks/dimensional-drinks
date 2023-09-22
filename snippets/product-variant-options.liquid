@@ -21,6 +21,7 @@
   assign variants_option3_arr = product.variants | map: 'option3'
 
   assign product_form_id = 'product-form-' | append: section.id
+  assign color_scheme = settings.variant_pills_color_scheme
 -%}
 
 {%- for value in option.values -%}
@@ -56,7 +57,7 @@
         checked
       {% endif %}
       {% if option_disabled %}
-        class="disabled"
+        class="disabled color-{{ color_scheme }}"
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">

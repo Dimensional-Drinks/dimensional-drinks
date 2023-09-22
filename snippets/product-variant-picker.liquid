@@ -9,14 +9,11 @@
   Usage:
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
-{%
-    assign color_scheme = settings.variant_pills_color_scheme
-%}
 {%- unless product.has_only_default_variant -%}
   {%- if block.settings.picker_type == 'button' -%}
     <variant-radios
       id="variant-radios-{{ section.id }}"
-      class="no-js-hidden color-{{ color_scheme }}"
+      class="no-js-hidden"
       data-section="{{ section.id }}"
       data-url="{{ product.url }}"
       {% if update_url == false %}
