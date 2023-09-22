@@ -62,9 +62,9 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Tumblers that fit",
+            "icon": "ruler",
+            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
             "page": ""
           }
         },
@@ -73,7 +73,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.sleeve_weight | metafield_tag }}<\/p>",
             "page": ""
           }
         },
