@@ -92,6 +92,15 @@
             "page": ""
           }
         },
+        "8a01af4f-a636-4d27-b3b8-1d3c8522e469": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Inspired By",
+            "icon": "star",
+            "content": "{{ product.metafields.pdp.inspired_by | metafield_tag }}",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -113,6 +122,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "8a01af4f-a636-4d27-b3b8-1d3c8522e469",
         "share"
       ],
       "settings": {
