@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Tumblers that fit",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.cups_that_fit | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -79,7 +79,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
+            "content": "{{ product.metafields.pdp.dimensions | metafield_tag }}",
             "page": ""
           }
         },
