@@ -10,6 +10,12 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
+        "2511f011-bc3b-419e-9eee-273e50aa3d9b": {
+          "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/joy-points-calculator-block\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "left"
+          }
+        },
         "subtotal": {
           "type": "subtotal",
           "settings": {
@@ -22,6 +28,7 @@
         }
       },
       "block_order": [
+        "2511f011-bc3b-419e-9eee-273e50aa3d9b",
         "subtotal",
         "buttons"
       ],
