@@ -22,6 +22,12 @@
             "text_style": "subtitle"
           }
         },
+        "e8feec81-19bb-4d4e-93e3-11085f21d7bd": {
+          "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/joy-points-calculator-block\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "left"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -97,6 +103,7 @@
         "vendor",
         "title",
         "caption",
+        "e8feec81-19bb-4d4e-93e3-11085f21d7bd",
         "price",
         "variant_picker",
         "quantity_selector",
