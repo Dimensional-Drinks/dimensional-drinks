@@ -143,7 +143,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.pdp.product_highlight_description | metafield_tag }}",
+            "text": "<p>{{ product.metafields.pdp.product_highlight_description | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
@@ -153,6 +153,7 @@
         "image-with-text-1"
       ],
       "settings": {
+        "hide_when_empty": "{{ product.metafields.pdp.product_highlight_description | metafield_tag }}",
         "image": "{{ product.metafields.pdp.product_highlight_image.value }}",
         "height": "medium",
         "desktop_image_width": "medium",
