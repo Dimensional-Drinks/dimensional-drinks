@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 {% assign scheme1 = settings.color_schemes | first %}
-{%  section.settings.hide_when_empty %}
+{{ section.settings.hide_when_empty }}
 {% if section.settings.hide_when_empty == blank %}
 {% else %}
 
