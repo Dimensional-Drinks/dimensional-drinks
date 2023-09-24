@@ -14,7 +14,10 @@
   }
 {%- endstyle -%}
 {% assign scheme1 = settings.color_schemes | first %}
-{{ section.settings.hide_when_empty }}
+
+{% comment %}
+We use this block to show things like Product and Artist Highlights on the Product Page
+{% endcomment %}
 {% if section.settings.hide_when_empty == blank %}
 {% else %}
 
