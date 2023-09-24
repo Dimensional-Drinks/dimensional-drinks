@@ -13,8 +13,7 @@
     }
   }
 {%- endstyle -%}
-{% settings.hide_when_empty %}
-{% if settings.hide_when_empty == blank %}
+{% if section.settings.hide_when_empty == blank %}
 {% else %}
 
 {% assign scheme1 = settings.color_schemes | first %}
