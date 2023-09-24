@@ -1,5 +1,21 @@
 {
   "sections": {
+    "1695522562d8e8d86f": {
+      "type": "apps",
+      "blocks": {
+        "a490a4ac-73ec-4f15-b047-86fa1edd186b": {
+          "type": "shopify:\/\/apps\/blog-article-filter-search-pro\/blocks\/app-block\/4d517ee7-df79-49ad-9f0a-91f02b184ae0",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a490a4ac-73ec-4f15-b047-86fa1edd186b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -14,6 +30,7 @@
     }
   },
   "order": [
+    "1695522562d8e8d86f",
     "main"
   ]
 }
