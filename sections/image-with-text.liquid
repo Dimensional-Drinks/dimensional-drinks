@@ -13,6 +13,8 @@
     }
   }
 {%- endstyle -%}
+{% if settings.hide_when_empty == blank %}
+{% else %}
 
 {% assign scheme1 = settings.color_schemes | first %}
 
@@ -94,6 +96,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 {% schema %}
 {
@@ -103,6 +106,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "hide_when_empty",
+      "label": "t:sections.all.hide_when_empty.label",
+      "default": ""
+    },
     {
       "type": "image_picker",
       "id": "image",

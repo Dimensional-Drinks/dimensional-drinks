@@ -1304,6 +1304,9 @@
         "image": {
           "label": "Image"
         },
+        "hide_when_empty": {
+            "label": "Hide section when empty"
+        },
         "height": {
           "options__1": {
             "label": "Adapt to image"
