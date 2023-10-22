@@ -317,6 +317,52 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "f1b472a1-0648-49af-b75f-ab2f73004df1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspiration",
+            "heading_size": "h1"
+          }
+        },
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking to learn more about using our products or inspiration? Check out our tutorials!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "More Info",
+            "button_link": "shopify:\/\/blogs\/tutorials",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-heading-1",
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-text-1",
+        "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-button-1"
+      ],
+      "settings": {
+        "hide_when_empty": "<p>RemoveMeToHide<\/p>",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -328,6 +374,7 @@
     "ef3eee4a-9902-4cb3-8044-8dee47aea527",
     "8cc72a92-cee1-4e0a-88ab-dd4ce1418a83",
     "collage",
-    "1695539259da3e09c5"
+    "1695539259da3e09c5",
+    "f1b472a1-0648-49af-b75f-ab2f73004df1"
   ]
 }
