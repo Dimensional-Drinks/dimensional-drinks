@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Original 3D Sleeves",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Browse our collection of Original 3D Tumbler Sleeves and accessories to help make your drinkware more Dimensional.",
             "text_style": "body"
           }
         },
@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/7B8FDAC7-782B-4BB8-97DD-DAA10607601B.png",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
@@ -224,7 +225,7 @@
           "settings": {
             "caption": "Step 1",
             "heading": "Adhere",
-            "text": "<p>Permanently adhere your sleeve to your bare tumbler by applying the adhesive to the inside of the sleeve and slide it onto your blank tumbler.<\/p>",
+            "text": "<p>Permanently adhere your sleeve to your bare tumbler by applying your preferred adhesive (epoxy, E6000 and more) to the inside of the sleeve and slide it onto your blank tumbler.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -234,7 +235,7 @@
           "settings": {
             "caption": "Step 2",
             "heading": "Decorate",
-            "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more directly on its' surface.<\/p>",
+            "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more directly on its surface.<\/p>",
             "button_label": "",
             "button_link": ""
           }
