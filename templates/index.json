@@ -233,6 +233,7 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-2": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/paint-and-brush.jpg",
             "caption": "Step 2",
             "heading": "Decorate",
             "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more directly on its surface.<\/p>",
@@ -243,6 +244,7 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/a-sea-lion-yawns-by-the-shoreline.jpg",
             "caption": "Step 3",
             "heading": "Seal",
             "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished for your final product.<\/p>",
@@ -351,6 +353,7 @@
       ],
       "settings": {
         "hide_when_empty": "<p>RemoveMeToHide<\/p>",
+        "image": "shopify:\/\/shop_images\/4thskulltut.jpeg-1688312105468.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
