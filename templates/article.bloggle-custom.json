@@ -1,7 +1,7 @@
 {
   "sections": {
     "blog": {
-      "type": "main-bloggle-blog",
+      "type": "main-bloggle-article",
       "settings": {
       }
     }
