@@ -208,6 +208,7 @@
         "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-heading-1",
         "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -258,6 +259,7 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-2",
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-3"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "small",
         "desktop_image_width": "medium",
