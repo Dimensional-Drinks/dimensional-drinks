@@ -1,4 +1,3 @@
-
 {% if localization.language.iso_code == "fr" or localization.language.iso_code contains "fr-" %}
     {% capture goback %} Retournez en arrière {% endcapture %}
     {% capture lastArticles %} Dernières nouvelles {% endcapture %}
@@ -403,6 +402,9 @@
           <div id="last-articles-container">
           {% assign count = 0 %}
           {% for recoArticle in blog.articles limit:4 %}
+            {%- comment %}<locksmith:744a>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recoArticle, subject_parent: blog, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:744a>{% endcomment -%}
             {% unless recoArticle.title == article.title or count >= 3 %}
               {% assign count = count | plus: 1 %}
               <a class="bggle-latest-article" href="{{recoArticle.url}}">
@@ -500,4 +502,3 @@
   }
   window.addEventListener('scroll', handleScroll);
 </script>
-
