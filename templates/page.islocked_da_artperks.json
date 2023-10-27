@@ -44,7 +44,7 @@
         "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-1": {
           "type": "column",
           "settings": {
-            "title": "Dimensional Drinks DA Code: DAX-23",
+            "title": "Dimensional Drinks DA Code: <strong>DAX-23<\/strong>",
             "text": "<p>This code is <strong>exclusively<\/strong> for Dimensional Artists subscribers. <\/p><p><em>Sharing this code with others will result in immediate cancellation of your subscription.<\/em><\/p>",
             "link_label": "",
             "link": ""
@@ -53,7 +53,7 @@
         "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-2": {
           "type": "column",
           "settings": {
-            "title": "The Tipsy Magnolia Code: Dimensional10",
+            "title": "The Tipsy Magnolia Code: <strong>Dimensional10<\/strong>",
             "text": "<p>Tipsy Magnolia has various unique styles of blank stainless steel tumblers. <\/p>",
             "link_label": "",
             "link": ""
@@ -62,8 +62,35 @@
         "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-3": {
           "type": "column",
           "settings": {
-            "title": "Mother Tumbler Code: 3Dtumbler",
+            "title": "Mother Tumbler Code: <strong>3Dtumbler<\/strong>",
             "text": "<p>Mother Tumbler has a wide variety of affordable and high quality blank stainless steel tumblers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0fc21079-e77e-45a9-b2c3-31fb457255a5": {
+          "type": "column",
+          "settings": {
+            "title": "Jenns Crafted Gems",
+            "text": "<p>JCG has a large selection of vibrant and high quality alcohol inks.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f40850f0-360d-4454-97de-92d66c5983a8": {
+          "type": "column",
+          "settings": {
+            "title": "Chase Rae Creations Code: <strong>DARKARTS15<\/strong>",
+            "text": "<p>Chase Rae has a wide variety of glitters.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "36a842db-7bbc-4393-b97c-2f6dcee3e687": {
+          "type": "column",
+          "settings": {
+            "title": "Nicole Marett Original Code: <strong>DARKARTS10<\/strong>",
+            "text": "<p>NMO has a wide variety of glitters and art supplies.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -72,7 +99,10 @@
       "block_order": [
         "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-1",
         "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-2",
-        "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-3"
+        "template--21041067917597__70728458-7af6-4daa-a57a-a3aa16b52200-column-3",
+        "0fc21079-e77e-45a9-b2c3-31fb457255a5",
+        "f40850f0-360d-4454-97de-92d66c5983a8",
+        "36a842db-7bbc-4393-b97c-2f6dcee3e687"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -82,7 +112,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -90,11 +120,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "10be4ab9-773c-472e-97e5-58c61367e916": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21041067917597__10be4ab9-773c-472e-97e5-58c61367e916-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amazon",
+            "heading_size": "h1"
+          }
+        },
+        "template--21041067917597__10be4ab9-773c-472e-97e5-58c61367e916-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>General Craft Supply List: <\/p><p><a href=\"https:\/\/a.co\/9XUvVcM\" title=\"https:\/\/a.co\/9XUvVcM\">Tempered glass cutting board<\/a><\/p><p><a href=\"https:\/\/a.co\/4CvDnQA\" title=\"https:\/\/a.co\/4CvDnQA\">Paint brushes for Epoxy<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21041067917597__10be4ab9-773c-472e-97e5-58c61367e916-heading-1",
+        "template--21041067917597__10be4ab9-773c-472e-97e5-58c61367e916-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "5915931e-7c8f-4e12-a4b9-0dafaf2b8b17",
-    "70728458-7af6-4daa-a57a-a3aa16b52200"
+    "70728458-7af6-4daa-a57a-a3aa16b52200",
+    "10be4ab9-773c-472e-97e5-58c61367e916"
   ]
 }
