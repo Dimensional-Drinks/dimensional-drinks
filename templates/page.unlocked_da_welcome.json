@@ -45,11 +45,59 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "f74dff6e-6752-4a72-8128-34cde5e4a1f9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21041068835101__f74dff6e-6752-4a72-8128-34cde5e4a1f9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shakira Corbel",
+            "heading_size": "h1"
+          }
+        },
+        "template--21041068835101__f74dff6e-6752-4a72-8128-34cde5e4a1f9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hi there!! My name is Shakira and I am the artist behind Dark Arts Craftopedia. I am a Licensed Psychologists that after many years of practice as an Art Therapist for state mental health instatues switched careers into the arts. I became a professional photographer who specializes in advertizing and fine art photography. I am also a military vet and spouse. My husband and I have three beautiful boys. I find inspiration through color and travel.  I enjoy teaching others and finding inner peace through the creative process. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "e432dc07-867b-40db-9d5e-39a19db13076": {
+          "type": "caption",
+          "settings": {
+            "caption": "Darkartscraftopedia",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--21041068835101__f74dff6e-6752-4a72-8128-34cde5e4a1f9-heading-1",
+        "template--21041068835101__f74dff6e-6752-4a72-8128-34cde5e4a1f9-text-1",
+        "e432dc07-867b-40db-9d5e-39a19db13076"
+      ],
+      "settings": {
+        "hide_when_empty": "<p>RemoveMeToHide<\/p>",
+        "image": "shopify:\/\/shop_images\/332986858_905706547333312_8015581234188147438_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "5048d4df-3351-498b-af96-d51810537141",
-    "cf2d8b27-1801-4ecf-8df3-71cbc93763d7"
+    "cf2d8b27-1801-4ecf-8df3-71cbc93763d7",
+    "f74dff6e-6752-4a72-8128-34cde5e4a1f9"
   ]
 }
