@@ -22,9 +22,9 @@
 
     {% liquid
       assign isDaPage = false
-      if collection.template_suffix contains 'dimensionalartists'
+      if collection.template_suffix contains '_da_'
         assign isDaPage = true
-      elsif page.template_suffix contains 'dimensionalartists'
+      elsif page.template_suffix contains '_da_'
         assign isDaPage = true
       endif
     %}
