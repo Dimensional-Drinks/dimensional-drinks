@@ -91,6 +91,8 @@
                 >
                   {{ 'sections.cart.checkout' | t }}
                 </button>
+
+                <i data-govx-id></i>
               </div>
 
               {%- if additional_checkout_buttons -%}
@@ -98,7 +100,6 @@
                   {{ content_for_additional_checkout_buttons }}
                 </div>
               {%- endif -%}
-              <i data-govx-id></i>
           {%- endcase -%}
         {% endfor %}
 
