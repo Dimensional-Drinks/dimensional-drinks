@@ -21,6 +21,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -38,7 +39,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DACE28CF-49BD-40F1-94E8-8E08B1C3D9F7.png",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
