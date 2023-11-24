@@ -5,6 +5,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Original 3D Tumbler Sleeves",
             "heading_size": "h0"
@@ -12,6 +13,7 @@
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Brought to you by artists, for artists. Browse our collection of specially curated 3D Tumbler Sleeves and accessories to create unique and innovative drinkware.",
             "text_style": "body"
@@ -35,7 +37,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/F1C3EE24-758C-4939-AEE8-A90EDAFB134F.jpg",
+        "image": "shopify:\/\/shop_images\/DACE28CF-49BD-40F1-94E8-8E08B1C3D9F7.png",
         "image_overlay_opacity": 40,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
