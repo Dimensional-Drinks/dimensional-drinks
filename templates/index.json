@@ -358,14 +358,14 @@
         "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Inspiration",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking to learn more about using our products or be inspired? Check out our tutorials made by other awesome artists!<\/p>",
+            "text": "<p>Looking to learn more about using our products or be inspired? You’ve come to the right place!<\/p>",
             "text_style": "body"
           }
         },
@@ -385,7 +385,7 @@
       ],
       "settings": {
         "hide_when_empty": "<p>RemoveMeToHide<\/p>",
-        "image": "shopify:\/\/shop_images\/4thskulltut.jpeg-1688312105468.webp",
+        "image": "shopify:\/\/shop_images\/6455745C-4AF9-4040-8DBB-ECE07C1B5D8E.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
