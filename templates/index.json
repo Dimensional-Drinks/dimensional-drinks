@@ -102,10 +102,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-36cc6a37-90d8-4503-9f8c-2e9d3912d8bd",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "3a7db244-b411-4769-840d-8f85b3aa3f6c": {
@@ -182,7 +182,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
