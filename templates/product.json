@@ -64,12 +64,22 @@
           "settings": {
           }
         },
+        "578258f2-c8a7-4c4f-9f84-54b667dda573": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Guide",
+            "icon": "clipboard",
+            "content": "<p>Our sleeves are designed to fit straight walled tumblers.<\/p><p><strong>Size A <\/strong>(Max 3\" Diameter) - Fits Tipsy Magnolia Plumps <\/p><p><strong>Size B<\/strong> (Max 2-14\/16\" Diameter) - Fits Mother Tumbler 20 oz Straight AF & CraftHaven 20 oz Skinny Straight<\/p><p><strong>Size C<\/strong> (Max 2-12\/16\" Diameter) - Fits MakerFlo 20 oz Skinny & HOGG 20 oz Skinny Straight<\/p><p><strong>Why are there different sizes?<\/strong><\/p><p>We understand that artists use a variety of brands and sizes of tumblers. To make our sleeves even more accessible, we offer different size sleeve openings to accommodate a wider variety of tumblers.<\/p><p><strong>What about other brands or cups?<\/strong><\/p><p>The sizes above fit the brands and sizes listed best, however they may still fit other brands\/styles. Hole diameter for each size is listed to help you identify other brands\/styles that could also fit.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Tumblers that fit",
             "icon": "check_mark",
-            "content": "<p>{{ product.metafields.custom.cups_that_fit | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
             "page": ""
           }
         },
@@ -100,15 +110,6 @@
             "page": ""
           }
         },
-        "578258f2-c8a7-4c4f-9f84-54b667dda573": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size Guide",
-            "icon": "clipboard",
-            "content": "<p>Our sleeves are designed to fit straight walled tumblers.<\/p><p><strong>Size A <\/strong>(Max 3\" Diameter) - Fits Tipsy Magnolia Plumps <\/p><p><strong>Size B<\/strong> (Max 2-14\/16\" Diameter) - Fits Mother Tumbler 20 oz Straight AF & CraftHaven 20 oz Skinny Straight<\/p><p><strong>Size C<\/strong> (Max 2-12\/16\" Diameter) - Fits MakerFlo 20 oz Skinny & HOGG 20 oz Skinny Straight<\/p><p><strong>Why are there different sizes?<\/strong><\/p><p>Some cups had a larger than desired gap between the cup wall and the internal wall of our sleeves. To alleviate this we made specific sizes that virtually eliminate that gap to make them easier to use for you.<\/p><p><strong>What about other brands or cups?<\/strong><\/p><p>The sizes above fit the brands and sizes listed best, however they may still fit other brands\/styles. Hole diameter for each size is listed to help you identify other brands\/styles that could also fit.<\/p>",
-            "page": ""
-          }
-        },
         "8a01af4f-a636-4d27-b3b8-1d3c8522e469": {
           "type": "collapsible_tab",
           "settings": {
@@ -136,11 +137,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "578258f2-c8a7-4c4f-9f84-54b667dda573",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "578258f2-c8a7-4c4f-9f84-54b667dda573",
         "8a01af4f-a636-4d27-b3b8-1d3c8522e469",
         "share"
       ],
