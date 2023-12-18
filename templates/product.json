@@ -22,16 +22,18 @@
             "text_style": "subtitle"
           }
         },
-        "e8feec81-19bb-4d4e-93e3-11085f21d7bd": {
-          "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/joy-points-calculator-block\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
-          "disabled": true,
-          "settings": {
-            "points_calculator_alignment": "left"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "89be0ade-c312-45cb-a112-c11d5c69609d": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-points-on-product-page\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#121212",
+            "secondary_colour": "#f8f8f8",
+            "should_show_icon": true,
+            "earning_rate": 5
           }
         },
         "e22c57c6-2897-4311-af40-d910380588e0": {
@@ -130,8 +132,8 @@
         "vendor",
         "title",
         "caption",
-        "e8feec81-19bb-4d4e-93e3-11085f21d7bd",
         "price",
+        "89be0ade-c312-45cb-a112-c11d5c69609d",
         "e22c57c6-2897-4311-af40-d910380588e0",
         "variant_picker",
         "quantity_selector",
