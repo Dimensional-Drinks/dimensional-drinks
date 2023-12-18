@@ -1,10 +1,73 @@
 {
   "sections": {
+    "170292664899d2beb7": {
+      "type": "apps",
+      "blocks": {
+        "78561fd7-bd90-4737-bbe4-820e83898d10": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-points-on-account-page\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#121212",
+            "secondary_colour": "#F8F8F8",
+            "show_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "78561fd7-bd90-4737-bbe4-820e83898d10"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1702926758c8512b79": {
+      "type": "apps",
+      "blocks": {
+        "6f16c3fb-c9cd-4d1a-a48f-9bde44b60595": {
+          "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscriptions-link\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "text": "Subscriptions"
+          }
+        }
+      },
+      "block_order": [
+        "6f16c3fb-c9cd-4d1a-a48f-9bde44b60595"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "170292665830d001c2": {
+      "type": "apps",
+      "blocks": {
+        "1d041a47-a0b8-4542-b0af-1f587afb1fbd": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-earning-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333",
+            "secondary_colour": "#fff",
+            "title_text": "Earn points for every order placed",
+            "description_text": "The more you spend, the more you save."
+          }
+        }
+      },
+      "block_order": [
+        "1d041a47-a0b8-4542-b0af-1f587afb1fbd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "170292664899d2beb7",
+    "1702926758c8512b79",
+    "main",
+    "170292665830d001c2"
   ]
 }
