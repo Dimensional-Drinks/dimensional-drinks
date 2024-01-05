@@ -38,7 +38,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/22B96CFB-9089-4DCC-A82C-8BFC58EA4816.jpg",
+        "image": "shopify:\/\/shop_images\/08C9AAA0-96D8-4E9C-8910-1CDBFA25EF0D.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -49,6 +49,36 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Created by artists, for artists.",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission is to make creating 3D tumblers more accessible for everyone, from beginners to artisans. Browse our sleeves, get inspired and make something Dimensional!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3": {
@@ -76,36 +106,6 @@
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 8
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Making 3D Tumblers Accessible",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our mission is to make creating 3D tumblers more accessible for everyone, from beginners to artisans. Browse our sleeves, get inspired and make something Dimensional!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "3a7db244-b411-4769-840d-8f85b3aa3f6c": {
@@ -402,8 +402,8 @@
   },
   "order": [
     "image_banner",
-    "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
     "rich_text",
+    "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
     "3a7db244-b411-4769-840d-8f85b3aa3f6c",
     "multicolumn",
     "featured_collection",
