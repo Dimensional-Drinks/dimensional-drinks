@@ -69,6 +69,9 @@
              {% assign discountGroupData = shop.metafields.wcp_discountgroup[discount_key] %}
              {% if discountGroupData contains 'collection' %}            
                 {% for collection in CartItem.product.collections %}
+                  {%- comment %}<locksmith:3865>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: CartItem.product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:3865>{% endcomment -%}
                   {% if discountGroupData contains collection.id %}
                     {% assign wcp_vd_Current_Prd_quantity = wcp_vd_Current_Prd_quantity | plus:CartItem.quantity%}
 					{% break %}

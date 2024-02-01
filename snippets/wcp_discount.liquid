@@ -54,6 +54,9 @@
         {% endif %}
       {% elsif discountgroup contains 'collection' %}
         {% for c in wcp_discount.collections %}
+          {%- comment %}<locksmith:873d>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: c, subject_parent: wcp_discount, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:873d>{% endcomment -%}
           {% if discountgroup contains c.id %}
           	{% if p_value >= p_discount_value %}
               {% assign p_discount_value = p_value %}

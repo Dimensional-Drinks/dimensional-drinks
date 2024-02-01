@@ -49,6 +49,9 @@
         {%- endif -%}
       {%- elsif discount_type contains 'collection' -%}
         {%- for c in wcp_product_json.collections -%}
+          {%- comment %}<locksmith:ba22>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: c, subject_parent: wcp_product_json, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:ba22>{% endcomment -%}
           {%- if discount_type contains c.id -%}
           	{%- if p_value >= p_discount_value -%}
               {%- assign p_discount_value = p_value -%}
