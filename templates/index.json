@@ -400,6 +400,76 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_tKCCHg": {
+      "type": "featured-product",
+      "blocks": {
+        "text_UPkbag": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_aPARdB": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_gcxPeP": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_99ReFN": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_4NH4Md": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_CTRffa": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_DXVW9a": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_UPkbag",
+        "title_aPARdB",
+        "price_gcxPeP",
+        "variant_picker_99ReFN",
+        "quantity_selector_4NH4Md",
+        "buy_buttons_CTRffa",
+        "share_DXVW9a"
+      ],
+      "settings": {
+        "product": "kelly-burns-meet-greet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "17062443577b1be76c": {
       "type": "apps",
       "blocks": {
@@ -433,6 +503,7 @@
     "collage",
     "1695539259da3e09c5",
     "f1b472a1-0648-49af-b75f-ab2f73004df1",
+    "featured_product_tKCCHg",
     "17062443577b1be76c"
   ]
 }
