@@ -153,7 +153,7 @@
       "settings": {
         "title": "New Releases",
         "heading_size": "h2",
-        "description": "<p>New products are released every month<\/p>",
+        "description": "<p>New products every month<\/p>",
         "show_description": false,
         "description_style": "uppercase",
         "collection": "new-releases",
@@ -234,9 +234,9 @@
       "settings": {
         "title": "Accessories",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Add-Ons, Tools, Handles + More<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "uppercase",
         "collection": "3d-tumbler-sleeves-accessories",
         "products_to_show": 4,
         "columns_desktop": 4,
