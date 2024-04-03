@@ -38,7 +38,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Butterflies.png",
+        "image": "shopify:\/\/shop_images\/215E0173-7135-4572-9549-D59CE4EBAFB0.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -81,6 +81,46 @@
         "padding_bottom": 40
       }
     },
+    "collection_list_D9gFXQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_cRTGF7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3d-tumbler-sleeves"
+          }
+        },
+        "featured_collection_yxRhbi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "3d-tumbler-sleeves-accessories"
+          }
+        },
+        "featured_collection_Qi6UDW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "decor"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_cRTGF7",
+        "featured_collection_yxRhbi",
+        "featured_collection_Qi6UDW"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3": {
       "type": "rich-text",
       "blocks": {
@@ -111,11 +151,11 @@
     "3a7db244-b411-4769-840d-8f85b3aa3f6c": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>New Releases<\/strong>",
+        "title": "New Releases",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>New products are released every month<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "uppercase",
         "collection": "new-releases",
         "products_to_show": 3,
         "columns_desktop": 3,
@@ -192,7 +232,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Accessories<\/strong>",
+        "title": "Accessories",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -494,6 +534,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "collection_list_D9gFXQ",
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
     "3a7db244-b411-4769-840d-8f85b3aa3f6c",
     "multicolumn",
