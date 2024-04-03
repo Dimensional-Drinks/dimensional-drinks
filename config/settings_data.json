@@ -247,12 +247,6 @@
           "position": "right"
         }
       },
-      "13070091535480640111": {
-        "type": "shopify:\/\/apps\/attrac\/blocks\/app-embed\/b783956d-47a9-4434-91ad-4ec960bd74b0",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "6174324309569838175": {
         "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
         "disabled": false,
