@@ -75,7 +75,6 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Tumblers that fit",
             "icon": "check_mark",
@@ -145,6 +144,7 @@
         "8a01af4f-a636-4d27-b3b8-1d3c8522e469",
         "share"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "media_size": "small",
@@ -182,6 +182,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "hide_when_empty": "{{ product.metafields.pdp.product_highlight_description | metafield_tag }}",
         "image": "{{ product.metafields.pdp.product_highlight_image.value }}",
@@ -200,6 +201,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -228,6 +230,7 @@
       "block_order": [
         "722cf6ee-68df-46e8-b878-fe779d77eebe"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -258,6 +261,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
