@@ -539,6 +539,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "margin_bottom": 32,
             "html_area": ""
           }
         }
