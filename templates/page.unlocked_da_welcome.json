@@ -148,6 +148,7 @@
         "template--21041068835101__12e5d79a-116d-4320-8e57-40c7abb0fb64-buy_buttons-1",
         "template--21041068835101__12e5d79a-116d-4320-8e57-40c7abb0fb64-share-1"
       ],
+      "disabled": true,
       "settings": {
         "product": "dimensional-artists-subscription",
         "color_scheme": "",
