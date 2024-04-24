@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "e22c57c6-2897-4311-af40-d910380588e0": {
+          "type": "text",
+          "settings": {
+            "text": "Sleeve size does <strong>not<\/strong> change based on tumbler size selection.",
+            "text_style": "body"
+          }
+        },
+        "dealeasy_app_block_BDMLBD": {
+          "type": "shopify:\/\/apps\/dealeasy\/blocks\/app-block\/e47a8634-0496-480d-9e46-6f7fafd34b30",
+          "settings": {
+            "lb-product-handle": "",
+            "lb-product-id": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "578258f2-c8a7-4c4f-9f84-54b667dda573": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Guide",
+            "icon": "clipboard",
+            "content": "<p>Our sleeves are designed to fit straight walled tumblers.<\/p><p><strong>Size A <\/strong>(Max 3\" Diameter) - Fits Tipsy Magnolia Plumps <\/p><p><strong>Size B<\/strong> (Max 2-14\/16\" Diameter) - Fits Mother Tumbler 20 oz Straight AF & CraftHaven 20 oz Skinny Straight<\/p><p><strong>Size C<\/strong> (Max 2-12\/16\" Diameter) - Fits MakerFlo 20 oz Skinny & HOGG 20 oz Skinny Straight<\/p><p><strong>Why are there different sizes?<\/strong><\/p><p>We understand that artists use a variety of brands and sizes of tumblers. To make our sleeves even more accessible, we offer different size sleeve openings to accommodate a wider variety of tumblers.<\/p><p><strong>What about other brands or cups?<\/strong><\/p><p>The sizes above fit the brands and sizes listed best, however they may still fit other brands\/styles. Hole diameter for each size is listed to help you identify other brands\/styles that could also fit.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Tumblers that fit",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.cups_that_fit | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Weight",
+            "icon": "box",
+            "content": "<p>{{ product.metafields.custom.sleeve_weight | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "{{ product.metafields.pdp.dimensions | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<ul><li>Avoid excessive heat<\/li><li>Avoid dropping to prevent damage<\/li><li>Light cleaning with alcohol may be necessary due to these being handled before shipment<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "8a01af4f-a636-4d27-b3b8-1d3c8522e469": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Inspired By",
+            "icon": "star",
+            "content": "{{ product.metafields.pdp.inspired_by | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "e22c57c6-2897-4311-af40-d910380588e0",
+        "dealeasy_app_block_BDMLBD",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "578258f2-c8a7-4c4f-9f84-54b667dda573",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "8a01af4f-a636-4d27-b3b8-1d3c8522e469",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the wild",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.pdp.product_highlight_description | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "settings": {
+        "hide_when_empty": "{{ product.metafields.pdp.product_highlight_description | metafield_tag }}",
+        "image": "{{ product.metafields.pdp.product_highlight_image.value }}",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "16953396068b6da3bd": {
+      "type": "apps",
+      "blocks": {
+        "722cf6ee-68df-46e8-b878-fe779d77eebe": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "722cf6ee-68df-46e8-b878-fe779d77eebe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Heat Sensitivity",
+            "text": "<p>Our sleeves are sensitive to heat, so please don't leave them in your vehicles! Excessive heat can cause warping\/shrinking so please be careful when torching! Your final coat should help mitigate these effects.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Got questions? We've got answers!",
+            "text": "<p>Feel free to reach out to us and we'll work to resolve any issues with your order as soon as possible! Feel free to join our Facebook Group as well and share any questions you may have or that gorgeous new cup you made!<\/p>",
+            "link_label": "Contact Us",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text",
+    "related-products",
+    "16953396068b6da3bd",
+    "multicolumn"
+  ]
+}
