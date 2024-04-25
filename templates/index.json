@@ -360,7 +360,7 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "spooky-pumpkin",
+            "product": "spooky-pumpkin-collective",
             "second_image": true
           }
         },
