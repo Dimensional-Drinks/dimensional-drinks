@@ -30,7 +30,7 @@
         "e22c57c6-2897-4311-af40-d910380588e0": {
           "type": "text",
           "settings": {
-            "text": "Sleeve hole and height change slightly based on selection, but otherwise does not change significantly.",
+            "text": "Sleeve hole and size changes based upon selected brand\/style.",
             "text_style": "body"
           }
         },
