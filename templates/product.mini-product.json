@@ -258,7 +258,7 @@
           "type": "column",
           "settings": {
             "title": "Got questions? We've got answers!",
-            "text": "<p>Feel free to reach out to us and we'll work to resolve any questions you may have! Be sure to join our Facebook Group as well!<\/p>",
+            "text": "<p>Feel free to reach out to us and we'll work to resolve any questions you may have! Be sure to join our <a href=\"https:\/\/www.facebook.com\/groups\/673505417620653\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/groups\/673505417620653\/\">Facebook Group<\/a> as well!<\/p>",
             "link_label": "Contact Us",
             "link": "shopify:\/\/pages\/contact"
           }
