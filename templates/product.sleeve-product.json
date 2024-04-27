@@ -73,6 +73,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_R7HdDa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Buying in Bulk?",
+            "icon": "truck",
+            "content": "<p><a href=\"https:\/\/www.dimensionaldrinks.com\/pages\/contact\" title=\"https:\/\/www.dimensionaldrinks.com\/pages\/contact\">Contact us<\/a> and we can accommodate your needs.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -138,6 +147,7 @@
         "buy_buttons",
         "description",
         "578258f2-c8a7-4c4f-9f84-54b667dda573",
+        "collapsible_tab_R7HdDa",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
