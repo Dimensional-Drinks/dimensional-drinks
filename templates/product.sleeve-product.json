@@ -30,7 +30,7 @@
         "e22c57c6-2897-4311-af40-d910380588e0": {
           "type": "text",
           "settings": {
-            "text": "Sleeve hole and height change slightly based on selection, but otherwise does not change significantly.",
+            "text": "3D Tumbler Sleeve hole and height change slightly based on selection, but otherwise does not change significantly.",
             "text_style": "body"
           }
         },
@@ -173,7 +173,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.pdp.product_highlight_description | metafield_tag }}<\/p>",
+            "text": "{{ product.metafields.pdp.product_highlight_description | metafield_tag }}",
             "text_style": "body"
           }
         }
