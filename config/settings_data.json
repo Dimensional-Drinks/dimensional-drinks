@@ -256,18 +256,6 @@
         "settings": {
         }
       },
-      "914574027208035924": {
-        "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/hide-oos-variants\/12f79890-9cb9-4b70-ac12-64dd825d687e",
-        "disabled": false,
-        "settings": {
-          "theme_name": "dawn",
-          "selector_type": "",
-          "hide_oos_variants": false,
-          "strikethrough_oos_variants": false,
-          "other_file_name": "",
-          "reverse_options": false
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -322,10 +310,16 @@
         "settings": {
         }
       },
-      "11003615419907091477": {
-        "type": "shopify:\/\/apps\/shopwaive-credit-and-payments\/blocks\/app-embed\/24775a13-6342-4373-8236-0a0c7c431eb3",
+      "914574027208035924": {
+        "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/hide-oos-variants\/12f79890-9cb9-4b70-ac12-64dd825d687e",
         "disabled": false,
         "settings": {
+          "theme_name": "dawn",
+          "selector_type": "",
+          "hide_oos_variants": true,
+          "strikethrough_oos_variants": false,
+          "other_file_name": "",
+          "reverse_options": false
         }
       }
     },
