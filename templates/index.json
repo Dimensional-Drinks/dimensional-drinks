@@ -119,6 +119,76 @@
         "padding_bottom": 8
       }
     },
+    "featured_product_cT9yR8": {
+      "type": "featured-product",
+      "blocks": {
+        "text_zigMGA": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_camMjL": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_yAqUeE": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_Ky93tW": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_QBXgKM": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_X8CjUa": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_7PwQEH": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_zigMGA",
+        "title_camMjL",
+        "price_yAqUeE",
+        "variant_picker_Ky93tW",
+        "quantity_selector_QBXgKM",
+        "buy_buttons_X8CjUa",
+        "share_7PwQEH"
+      ],
+      "settings": {
+        "product": "tumbler-class",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3a7db244-b411-4769-840d-8f85b3aa3f6c": {
       "type": "featured-collection",
       "settings": {
@@ -573,6 +643,7 @@
     "image_banner",
     "collection_list_D9gFXQ",
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
+    "featured_product_cT9yR8",
     "3a7db244-b411-4769-840d-8f85b3aa3f6c",
     "multicolumn",
     "rich_text",
