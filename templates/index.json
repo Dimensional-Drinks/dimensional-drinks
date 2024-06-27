@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -38,7 +47,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/76E16769-C86F-4AC0-AFE7-B8E8F76FADF2.png",
+        "image": "shopify:\/\/shop_images\/Untitled_Facebook_Cover.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -214,7 +223,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Creating 3D tumblers has never been easier and more accessible to all artists from beginners to artisans with our Original 3D Tumbler Sleeves and tumbler accessories. <br\/><\/p><p>Choose from our wide selection of fun and innovative tumbler shapes. Our designs are exclusively made to provide the highest quality for all of our products.<\/p>"
+            "text": "<p>Making 3D tumblers has never been easier and more accessible to all artists from beginners to artisans with our Original 3D Tumbler Sleeves and tumbler accessories. <br\/><\/p><p>Choose from our wide selection of fun and innovative tumbler shapes. Our designs are exclusively made to provide the highest quality for all of our products.<\/p>"
           }
         }
       },
