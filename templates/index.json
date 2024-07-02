@@ -100,6 +100,76 @@
         "padding_bottom": 8
       }
     },
+    "featured_product_QHtX3A": {
+      "type": "featured-product",
+      "blocks": {
+        "text_q7HAjD": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hABnW7": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_Q6jmnC": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_WBKxp8": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_KKf4Ky": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_iJtxYi": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_cC36B6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_q7HAjD",
+        "title_hABnW7",
+        "price_Q6jmnC",
+        "variant_picker_WBKxp8",
+        "quantity_selector_KKf4Ky",
+        "buy_buttons_iJtxYi",
+        "share_cC36B6"
+      ],
+      "settings": {
+        "product": "spooky-bundle",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3": {
       "type": "rich-text",
       "blocks": {
@@ -581,6 +651,7 @@
   "order": [
     "image_banner",
     "collection_list_D9gFXQ",
+    "featured_product_QHtX3A",
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
     "3a7db244-b411-4769-840d-8f85b3aa3f6c",
     "multicolumn",
