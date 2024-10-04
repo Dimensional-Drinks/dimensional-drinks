@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/dd-logo-v2.png",
+    "logo": "shopify://shop_images/dd-logo-v2.png",
     "logo_width": 250,
-    "favicon": "shopify:\/\/shop_images\/favicon_dk.png",
+    "favicon": "shopify://shop_images/favicon_dk.png",
     "type_header_font": "quicksand_n4",
     "heading_scale": 100,
     "type_body_font": "quicksand_n4",
@@ -106,10 +106,10 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/dimensionaldrinks\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/dimensionaldrinks\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@dimensionaldrinks",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@dimensionaldrinks",
+    "social_facebook_link": "https://www.facebook.com/dimensionaldrinks/",
+    "social_instagram_link": "https://www.instagram.com/dimensionaldrinks/",
+    "social_youtube_link": "https://www.youtube.com/@dimensionaldrinks",
+    "social_tiktok_link": "https://www.tiktok.com/@dimensionaldrinks",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -123,7 +123,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/dd-logo-v2.png",
+    "checkout_logo_image": "shopify://shop_images/dd-logo-v2.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_heading_font": "Roboto",
@@ -177,7 +177,7 @@
           "ba10929b-9fff-4f31-8999-ce74f7475e6f": {
             "type": "text_block",
             "settings": {
-              "text_input": "Tax ID\/ABN\/VAT Number",
+              "text_input": "Tax ID/ABN/VAT Number",
               "isRequired": false
             }
           },
@@ -205,13 +205,13 @@
     ],
     "blocks": {
       "5918445685253060206": {
-        "type": "shopify:\/\/apps\/bundler\/blocks\/bundler-script-append\/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
         "disabled": false,
         "settings": {
         }
       },
       "11468047240823483236": {
-        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/checkout-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "type": "shopify://apps/sezzle-widget/blocks/checkout-embed/f3a53793-e118-4764-a86b-a79bfedb0d5f",
         "disabled": false,
         "settings": {
           "heading": "Sezzle Checkout Button",
@@ -220,7 +220,7 @@
         }
       },
       "12608439564960700138": {
-        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "type": "shopify://apps/sezzle-widget/blocks/widget-embed/f3a53793-e118-4764-a86b-a79bfedb0d5f",
         "disabled": false,
         "settings": {
           "heading": "Sezzle Widget",
@@ -229,44 +229,44 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "341186785192672687": {
-        "type": "shopify:\/\/apps\/seal-subscriptions\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "type": "shopify://apps/seal-subscriptions/blocks/subscription-script-append/13b25004-a140-4ab7-b5fe-29918f759699",
         "disabled": false,
         "settings": {
         }
       },
       "15079184273603081885": {
-        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "type": "shopify://apps/essential-shipping-bar/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "6174324309569838175": {
-        "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "type": "shopify://apps/smile-loyalty-rewards/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
         "disabled": false,
         "settings": {
         }
       },
       "wholesale_gorilla": {
-        "type": "shopify:\/\/apps\/wholesale-gorilla\/blocks\/wsg-header\/c48d0487-dff9-41a4-94c8-ec6173fe8b8d",
+        "type": "shopify://apps/wholesale-gorilla/blocks/wsg-header/c48d0487-dff9-41a4-94c8-ec6173fe8b8d",
         "disabled": false,
         "settings": {
           "embed_bg_color": "#000000",
@@ -275,40 +275,40 @@
         }
       },
       "8746983209849429782": {
-        "type": "shopify:\/\/apps\/dealeasy\/blocks\/app-embed\/e47a8634-0496-480d-9e46-6f7fafd34b30",
+        "type": "shopify://apps/dealeasy/blocks/app-embed/e47a8634-0496-480d-9e46-6f7fafd34b30",
         "disabled": false,
         "settings": {
           "dealeasy_public_access_token": "e304c2b324eb9b21b3e97ecd0eea6350",
           "using_translated_handles": false,
-          "custom_script_and_style": "<script><\/script>\n<style><\/style>"
+          "custom_script_and_style": "<script></script>\n<style></style>"
         }
       },
       "10312807297210203588": {
-        "type": "shopify:\/\/apps\/aftersell\/blocks\/utm-triggers\/509ec35d-0632-4dfc-a105-fa799cd9d149",
+        "type": "shopify://apps/aftersell/blocks/utm-triggers/509ec35d-0632-4dfc-a105-fa799cd9d149",
         "disabled": false,
         "settings": {
         }
       },
       "14952540001915115444": {
-        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
         "disabled": false,
         "settings": {
         }
       },
       "pagefly-page-builder": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
       },
       "13070091535480640111": {
-        "type": "shopify:\/\/apps\/attrac\/blocks\/app-embed\/b783956d-47a9-4434-91ad-4ec960bd74b0",
+        "type": "shopify://apps/attrac/blocks/app-embed/b783956d-47a9-4434-91ad-4ec960bd74b0",
         "disabled": false,
         "settings": {
         }
       },
       "914574027208035924": {
-        "type": "shopify:\/\/apps\/camouflage-hide-sold-variants\/blocks\/hide-oos-variants\/12f79890-9cb9-4b70-ac12-64dd825d687e",
+        "type": "shopify://apps/camouflage-hide-sold-variants/blocks/hide-oos-variants/12f79890-9cb9-4b70-ac12-64dd825d687e",
         "disabled": false,
         "settings": {
           "theme_name": "dawn",
@@ -320,13 +320,13 @@
         }
       },
       "11945366711752539959": {
-        "type": "shopify:\/\/apps\/zendesk\/blocks\/zendesk_web_widget\/c0b417b1-b90b-4754-baaf-f55627e6acd4",
+        "type": "shopify://apps/zendesk/blocks/zendesk_web_widget/c0b417b1-b90b-4754-baaf-f55627e6acd4",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#283236",
@@ -337,6 +337,12 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hello! Please message us if you have questions, or give an idea of what you’re looking for."
+        }
+      },
+      "534977871531306417": {
+        "type": "shopify://apps/tnc-terms-checkbox/blocks/app-embed/2b45c8fb-5ee2-4392-8a72-b663da1d38ad",
+        "disabled": false,
+        "settings": {
         }
       }
     },
