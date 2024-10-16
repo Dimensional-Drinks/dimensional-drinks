@@ -385,6 +385,10 @@ blockquote {
   line-height: calc(1 + 0.7 / var(--font-body-scale));
 }
 
+.newsletter-subtitle {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 750px) {
   .caption {
     font-size: 1.2rem;
