@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -66,6 +66,13 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "text_kMaHcM": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>About This Sleeve</strong>",
+            "text_style": "subtitle"
           }
         },
         "description": {
@@ -154,6 +161,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_kMaHcM",
         "description",
         "578258f2-c8a7-4c4f-9f84-54b667dda573",
         "collapsible_tab_R7HdDa",
