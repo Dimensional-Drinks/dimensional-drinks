@@ -596,5 +596,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#cl-set-9689c114-7085-4661-89f6-9788c61d5bb5-cl-option-2 {height: 100px;}"
+    ]
   }
 }
