@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -11,15 +20,21 @@
             "heading": "Info",
             "menu": "info-links"
           }
+        },
+        "judge_me_reviews_medals_EUVdAN": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
-        "footer-1"
+        "footer-1",
+        "judge_me_reviews_medals_EUVdAN"
       ],
       "settings": {
         "color_scheme": "accent-1",
         "newsletter_enable": true,
         "newsletter_heading": "Stay up-to-date",
+        "newsletter_description": "Keep up with our latest sleeves, upcoming classes, exclusive discounts & more!",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
