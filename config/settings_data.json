@@ -306,6 +306,11 @@
         "disabled": false,
         "settings": {}
       },
+      "11945366711752539959": {
+        "type": "shopify://apps/zendesk/blocks/zendesk_web_widget/c0b417b1-b90b-4754-baaf-f55627e6acd4",
+        "disabled": true,
+        "settings": {}
+      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -314,16 +319,11 @@
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
-          "button_text": "no_text",
+          "button_text": "need_help",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hello! Please message us if you have questions, or give an idea of what you’re looking for."
+          "greeting_message": "👋 Hello! Please message us if you have questions, or give an idea of what you’re looking for - we'll get back to you within 24-48 business hours."
         }
-      },
-      "11945366711752539959": {
-        "type": "shopify://apps/zendesk/blocks/zendesk_web_widget/c0b417b1-b90b-4754-baaf-f55627e6acd4",
-        "disabled": true,
-        "settings": {}
       }
     },
     "color_schemes": {
