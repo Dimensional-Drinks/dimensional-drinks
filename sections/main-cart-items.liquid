@@ -154,6 +154,9 @@
                             </div>
                           {%- endif -%}
                         {%- endfor -%}
+                        {% if item.properties['_customily-customization-url'] %}
+                          <a href="{{item.properties['_customily-customization-url']}}">Edit Personalization</a>
+                        {% endif %}
                       </dl>
 
                       <p class="product-option">{{ item.selling_plan_allocation.selling_plan.name }}</p>
