@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -33,7 +33,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -47,7 +47,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_Facebook_Cover.png",
+        "image": "shopify://shop_images/Untitled_Facebook_Cover_acc01cb7-feda-4aa0-b450-c33441647c39.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -118,8 +118,7 @@
         },
         "price_Q6jmnC": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_WBKxp8": {
           "type": "variant_picker",
@@ -129,8 +128,7 @@
         },
         "quantity_selector_KKf4Ky": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_iJtxYi": {
           "type": "buy_buttons",
@@ -178,7 +176,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/all-products",
+            "button_link": "shopify://collections/all-products",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -204,7 +202,7 @@
       "settings": {
         "title": "New Releases",
         "heading_size": "h2",
-        "description": "<p>New products every month<\/p>",
+        "description": "<p>New products every month</p>",
         "show_description": false,
         "description_style": "uppercase",
         "collection": "new-releases",
@@ -234,16 +232,16 @@
           "type": "column",
           "settings": {
             "title": "Quality",
-            "text": "<p>We pride ourselves on providing you quality products that meet your needs. If you ever have a question, please reach out to us!<\/p>",
+            "text": "<p>We pride ourselves on providing you quality products that meet your needs. If you ever have a question, please reach out to us!</p>",
             "link_label": "Contact Us",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify://pages/contact"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
             "title": "Ease of Use",
-            "text": "<p>We make 3D tumblers too, so our designs reflect that experience and knowledge. Softening edges to make epoxying easier and ensuring versatility are a few examples.<\/p>",
+            "text": "<p>We make 3D tumblers too, so our designs reflect that experience and knowledge. Softening edges to make epoxying easier and ensuring versatility are a few examples.</p>",
             "link_label": "",
             "link": ""
           }
@@ -252,7 +250,7 @@
           "type": "column",
           "settings": {
             "title": "Versatility",
-            "text": "<p>Versatility is extremely important to us; even though we may see a <a href=\"\/products\/bowl\" title=\"Bowl\">Bowl<\/a> - perhaps your inner artist sees the top of a mushroom. The possibilities are endless with our sleeves.<\/p>",
+            "text": "<p>Versatility is extremely important to us; even though we may see a <a href=\"/products/bowl\" title=\"Bowl\">Bowl</a> - perhaps your inner artist sees the top of a mushroom. The possibilities are endless with our sleeves.</p>",
             "link_label": "",
             "link": ""
           }
@@ -294,7 +292,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Making 3D tumblers has never been easier and more accessible to all artists from beginners to artisans with our Original 3D Tumbler Sleeves and tumbler accessories. <br\/><\/p><p>Choose from our wide selection of fun and innovative tumbler shapes. Our designs are exclusively made to provide the highest quality for all of our products.<\/p>"
+            "text": "<p>Making 3D tumblers has never been easier and more accessible to all artists from beginners to artisans with our Original 3D Tumbler Sleeves and tumbler accessories. <br/></p><p>Choose from our wide selection of fun and innovative tumbler shapes. Our designs are exclusively made to provide the highest quality for all of our products.</p>"
           }
         }
       },
@@ -316,7 +314,7 @@
       "settings": {
         "title": "Accessories",
         "heading_size": "h2",
-        "description": "<p>Add-Ons, Tools, Handles + More<\/p>",
+        "description": "<p>Add-Ons, Tools, Handles + More</p>",
         "show_description": false,
         "description_style": "uppercase",
         "collection": "3d-tumbler-sleeves-accessories",
@@ -352,7 +350,7 @@
         "template--20974520992029__ef3eee4a-9902-4cb3-8044-8dee47aea527-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Getting started with our sleeves is super easy! Simply adhere the sleeve to your tumbler, decorate it and seal!<\/p>"
+            "text": "<p>Getting started with our sleeves is super easy! Simply adhere the sleeve to your tumbler, decorate it and seal!</p>"
           }
         }
       },
@@ -378,7 +376,7 @@
           "settings": {
             "caption": "Step 1",
             "heading": "Adhere",
-            "text": "<p>Permanently adhere your sleeve to your bare tumbler by applying your preferred adhesive (epoxy, E6000 and more) to the inside of the sleeve and slide it onto your blank tumbler.<\/p>",
+            "text": "<p>Permanently adhere your sleeve to your bare tumbler by applying your preferred adhesive (epoxy, E6000 and more) to the inside of the sleeve and slide it onto your blank tumbler.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -386,10 +384,10 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/paint-and-brush.jpg",
+            "image": "shopify://shop_images/paint-and-brush.jpg",
             "caption": "Step 2",
             "heading": "Decorate",
-            "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more directly on its surface.<\/p>",
+            "text": "<p>Decorate your sleeve with glitters, paints, alcohol inks, pigment powders and more directly on its surface.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -397,10 +395,10 @@
         "template--20974520992029__8cc72a92-cee1-4e0a-88ab-dd4ce1418a83-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-sea-lion-yawns-by-the-shoreline.jpg",
+            "image": "shopify://shop_images/a-sea-lion-yawns-by-the-shoreline.jpg",
             "caption": "Step 3",
             "heading": "Seal",
-            "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished for your final product.<\/p>",
+            "text": "<p>Seal your sleeve and tumbler with epoxy or an epoxy alternative when finished for your final product.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -487,7 +485,7 @@
         "template--20974520992029__f1b472a1-0648-49af-b75f-ab2f73004df1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking to learn more about using our products or be inspired? You’ve come to the right place!<\/p>",
+            "text": "<p>Looking to learn more about using our products or be inspired? You’ve come to the right place!</p>",
             "text_style": "body"
           }
         },
@@ -495,7 +493,7 @@
           "type": "button",
           "settings": {
             "button_label": "More Info",
-            "button_link": "shopify:\/\/blogs\/tutorials",
+            "button_link": "shopify://blogs/tutorials",
             "button_style_secondary": false
           }
         }
@@ -507,8 +505,8 @@
       ],
       "disabled": true,
       "settings": {
-        "hide_when_empty": "<p>RemoveMeToHide<\/p>",
-        "image": "shopify:\/\/shop_images\/6455745C-4AF9-4040-8DBB-ECE07C1B5D8E.png",
+        "hide_when_empty": "<p>RemoveMeToHide</p>",
+        "image": "shopify://shop_images/6455745C-4AF9-4040-8DBB-ECE07C1B5D8E.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -540,8 +538,7 @@
         },
         "price_gcxPeP": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_99ReFN": {
           "type": "variant_picker",
@@ -551,8 +548,7 @@
         },
         "quantity_selector_4NH4Md": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_CTRffa": {
           "type": "buy_buttons",
@@ -614,7 +610,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_pFepf4": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
@@ -631,12 +627,14 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_hRWAWW": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
             "margin_bottom": 32,
+            "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
