@@ -43,18 +43,6 @@
     },
     "1735912145e71a9a9f": {
       "type": "apps",
-      "blocks": {
-        "sk_advanced_form_builder_form_Rdjqr8": {
-          "type": "shopify://apps/sk-advanced-form-builder/blocks/form/f3e35b58-5874-4ef2-8e03-c92cda6e49eb",
-          "settings": {
-            "show_form": true,
-            "form_token": "624a314f414f5878"
-          }
-        }
-      },
-      "block_order": [
-        "sk_advanced_form_builder_form_Rdjqr8"
-      ],
       "settings": {
         "include_margins": true
       }
