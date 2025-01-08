@@ -205,7 +205,7 @@
         "description": "<p>New products every month</p>",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "new-releases",
+        "collection": "latest-release",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
