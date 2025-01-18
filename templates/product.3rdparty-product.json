@@ -41,7 +41,7 @@
         "e22c57c6-2897-4311-af40-d910380588e0": {
           "type": "text",
           "settings": {
-            "text": "Sleeve size does <strong>not</strong> change based on tumbler size selection.",
+            "text": "<strong>Attention: </strong>This item is shipped by <strong>{{ product.vendor }}</strong> and purchasing this item will result in <strong>additional shipping charges</strong>.",
             "text_style": "body"
           }
         },
