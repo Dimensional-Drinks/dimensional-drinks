@@ -1,0 +1,44 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1695522562d8e8d86f": {
+      "type": "apps",
+      "blocks": {
+        "a490a4ac-73ec-4f15-b047-86fa1edd186b": {
+          "type": "shopify://apps/blog-filter-search-pro/blocks/app-block/4d517ee7-df79-49ad-9f0a-91f02b184ae0",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "a490a4ac-73ec-4f15-b047-86fa1edd186b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "adapt",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1695522562d8e8d86f",
+    "main"
+  ]
+}
