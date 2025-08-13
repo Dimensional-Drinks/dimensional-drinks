@@ -309,6 +309,35 @@
         "padding_bottom": 40
       }
     },
+    "featured_collection_Jt9tbM": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "<p>The perfect crafty blanks for the season!</p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "spooky-season",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -660,6 +689,7 @@
     "fd1fc3d0-79fe-4271-9cbf-ae28bc258ca3",
     "3a7db244-b411-4769-840d-8f85b3aa3f6c",
     "multicolumn",
+    "featured_collection_Jt9tbM",
     "rich_text",
     "featured_collection",
     "ef3eee4a-9902-4cb3-8044-8dee47aea527",
