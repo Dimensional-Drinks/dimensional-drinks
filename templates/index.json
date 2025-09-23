@@ -680,6 +680,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1758637731977be7a1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -700,6 +706,7 @@
     "featured_product_tKCCHg",
     "featured_blog_DnQ7gq",
     "1713296234a3ca7cb0",
-    "17062443577b1be76c"
+    "17062443577b1be76c",
+    "1758637731977be7a1"
   ]
 }
